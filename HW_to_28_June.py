@@ -90,6 +90,7 @@ def count_even(start, finish, thread1):
     counter += local_counter
     lock.release()
 
+
     print(f"[{thread1}] Обработанот {start, finish}, "
           f"найдено {local_counter} четных чисел")
 
